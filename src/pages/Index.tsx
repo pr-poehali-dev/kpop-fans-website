@@ -429,7 +429,12 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
-            <Card className="border-pink-200 hover:shadow-xl transition-all duration-300">
+            <Card className="border-pink-200 hover:shadow-xl transition-all duration-300 relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <span className="bg-gradient-to-r from-orange-400 to-amber-500 text-white px-4 py-1 rounded-full text-sm font-medium shadow-lg">
+                  Бесплатно для создателя
+                </span>
+              </div>
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 bg-gradient-to-r from-pink-400 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Icon name="Sparkles" size={28} className="text-white" />
