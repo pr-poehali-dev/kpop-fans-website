@@ -182,6 +182,237 @@ const Index = () => {
         </div>
       </section>
 
+      {/* K-pop Groups Section */}
+      <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-indigo-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Популярные <span className="text-pink-600">K-pop</span> группы
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Следи за своими любимыми артистами и не пропускай новости
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* BABYMONSTER */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-pink-100 to-rose-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-rose-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">BM</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">
+                  BABYMONSTER
+                </CardTitle>
+                <CardDescription className="text-gray-600">
+                  7 участниц • Дебют: 2023
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=180&fit=crop&crop=center"
+                  alt="BABYMONSTER"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "BATTER UP", "SHEESH"
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* BLACKPINK */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-gray-100 to-pink-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-gray-800 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">BP</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">
+                  BLACKPINK
+                </CardTitle>
+                <CardDescription className="text-gray-600">
+                  4 участницы • Дебют: 2016
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=300&h=180&fit=crop&crop=center"
+                  alt="BLACKPINK"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "DDU-DU DDU-DU", "How You Like That"
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* (G)I-DLE */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-purple-100 to-indigo-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">ID</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">
+                  (G)I-DLE
+                </CardTitle>
+                <CardDescription className="text-gray-600">
+                  5 участниц • Дебют: 2018
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=300&h=180&fit=crop&crop=center"
+                  alt="(G)I-DLE"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "LATATA", "Tomboy"
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* NMIXX */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-orange-100 to-red-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-orange-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">NM</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">NMIXX</CardTitle>
+                <CardDescription className="text-gray-600">
+                  6 участниц • Дебют: 2022
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=300&h=180&fit=crop&crop=center"
+                  alt="NMIXX"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "O.O", "DICE"
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* AESPA */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-blue-100 to-purple-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">æ</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">AESPA</CardTitle>
+                <CardDescription className="text-gray-600">
+                  4 участницы • Дебют: 2020
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=180&fit=crop&crop=center"
+                  alt="AESPA"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "Black Mamba", "Next Level"
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* ITZY */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-yellow-100 to-orange-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">IT</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">ITZY</CardTitle>
+                <CardDescription className="text-gray-600">
+                  5 участниц • Дебют: 2019
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=300&h=180&fit=crop&crop=center"
+                  alt="ITZY"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "DALLA DALLA", "WANNABE"
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* TWICE */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-pink-100 to-purple-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">TW</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">TWICE</CardTitle>
+                <CardDescription className="text-gray-600">
+                  9 участниц • Дебют: 2015
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=300&h=180&fit=crop&crop=center"
+                  alt="TWICE"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "TT", "What Is Love?"
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* STRAY KIDS */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-gray-100 to-blue-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-gray-700 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">SK</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">
+                  STRAY KIDS
+                </CardTitle>
+                <CardDescription className="text-gray-600">
+                  8 участников • Дебют: 2018
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=300&h=180&fit=crop&crop=center"
+                  alt="STRAY KIDS"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "God's Menu", "Back Door"
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* BTS */}
+            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 bg-gradient-to-br from-purple-100 to-pink-200 hover:scale-105">
+              <CardHeader className="text-center pb-4">
+                <div className="w-20 h-20 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                  <span className="text-white font-bold text-lg">방탄</span>
+                </div>
+                <CardTitle className="text-xl text-gray-900">BTS</CardTitle>
+                <CardDescription className="text-gray-600">
+                  7 участников • Дебют: 2013
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=180&fit=crop&crop=center"
+                  alt="BTS"
+                  className="w-full h-32 object-cover rounded-lg mb-3"
+                />
+                <p className="text-sm text-gray-700 font-medium">
+                  Хиты: "Dynamite", "Butter"
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing */}
       <section
         id="pricing"
